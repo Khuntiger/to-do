@@ -1,5 +1,6 @@
 import { Elysia } from "elysia";
 import { cors } from "@elysiajs/cors";
+import { openapi} from "@elysiajs/openapi";
 import { todoRoutes } from "./routes/todos";
 
 const PORT = Number(process.env.PORT ?? 3000);
